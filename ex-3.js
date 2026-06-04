@@ -11,5 +11,5 @@ const employees = [
   },
 ];
 
-employees[1].hobbies = ["Cryptocurrency", "Social media","Watching basketball"];
+employees[1].hobbies.push ("Watching basketball");
 console.log(employees[1]);
